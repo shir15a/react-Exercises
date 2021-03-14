@@ -3,7 +3,7 @@
 
 const Boxes = () => {
     return <div>
-       test
+       new
     </div >
 }
 
