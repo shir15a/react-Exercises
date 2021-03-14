@@ -1,7 +1,32 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Boxes from "./Components/Boxes/Boxes"
+// import Basic from "./Components/Basic/Basic_of_jsx";
+import Boxes from "./Components/Boxes/Boxes";
+
+
+//Q 2.1
+// function App() {
+//   return (
+//     <div>
+//       <Basic />
+//     </div>
+//   );
+// }
+
+//Q 3.1
+function App() {
+  return (<div>
+    <Boxes />
+  </div>
+  );
+}
+
+
+export default App;
+
+
+
 
 // function App() {
 //   return (
@@ -23,22 +48,3 @@ import Boxes from "./Components/Boxes/Boxes"
 //     </div>
 //   );
 // }
-
-//Q 2.1
-// function App() {
-//   return (<div>
-//     <Basic />
-//   </div>
-//   );
-// }
-
-//Q 3.1
-function App() {
-  return (<div>
-    <Boxes />
-  </div>
-  );
-}
-
-
-export default App;
