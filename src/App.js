@@ -2,7 +2,9 @@
 // import './App.css';
 
 // import Basic from "./Components/Basic/Basic_of_jsx";
-import Boxes from "./Components/Boxes/Boxes";
+// import Boxes from "./Components/Boxes/Boxes";
+import Quiz from "./Components/Quiz/Quiz";
+
 
 
 //Q 2.1
@@ -15,9 +17,17 @@ import Boxes from "./Components/Boxes/Boxes";
 // }
 
 //Q 3.1
+// function App() {
+//   return (<div>
+//     <Boxes />
+//   </div>
+//   );
+// }
+
+//Q 3.2
 function App() {
   return (<div>
-    <Boxes />
+    <Quiz />
   </div>
   );
 }
