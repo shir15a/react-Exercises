@@ -6,7 +6,8 @@
 // import Quiz from "./Components/Quiz/Quiz";
 // import Buttons from "./Components/Buttons/Buttons";
 // import Cards from "./Components/Cards/Cards";
-import Increment from "./Components/Increment/Increment";
+// import Increment from "./Components/Increment/Increment";
+import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
 
 
 
@@ -76,13 +77,21 @@ import Increment from "./Components/Increment/Increment";
 // }
 
 //Q7.1
+// function App() {
+//   return (<div>
+//     <Increment />
+//   </div>
+//   );
+// }
+
+
+//Q7.2
 function App() {
   return (<div>
-    <Increment />
+    <HideAndSeek />
   </div>
   );
 }
-
 
 
 export default App;
