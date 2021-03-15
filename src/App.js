@@ -4,7 +4,31 @@
 // import Basic from "./Components/Basic/Basic_of_jsx";
 // import Boxes from "./Components/Boxes/Boxes";
 // import Quiz from "./Components/Quiz/Quiz";
-import Buttons from "./Components/Buttons/Buttons";
+// import Buttons from "./Components/Buttons/Buttons";
+import Cards from "./Components/Cards/Cards";
+
+
+// Q 1
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//            <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Click me
+//         </a>
+//       </header>
+//     </div>
+//   );
+// }
 
 
 //Q 2.1
@@ -33,10 +57,18 @@ import Buttons from "./Components/Buttons/Buttons";
 // }
 
 //Q4.1
+// function App() {
+//   return (<div>
+//     <Buttons />
+//   </div>
+//   );
+// }
 
+
+//Q4.2
 function App() {
   return (<div>
-    <Buttons />
+    <Cards />
   </div>
   );
 }
@@ -44,26 +76,3 @@ function App() {
 
 export default App;
 
-
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//            <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Click me
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
