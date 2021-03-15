@@ -5,7 +5,9 @@
 // import Boxes from "./Components/Boxes/Boxes";
 // import Quiz from "./Components/Quiz/Quiz";
 // import Buttons from "./Components/Buttons/Buttons";
-import Cards from "./Components/Cards/Cards";
+// import Cards from "./Components/Cards/Cards";
+import Increment from "./Components/Increment/Increment";
+
 
 
 // Q 1
@@ -66,12 +68,21 @@ import Cards from "./Components/Cards/Cards";
 
 
 //Q4.2
+// function App() {
+//   return (<div>
+//     <Cards />
+//   </div>
+//   );
+// }
+
+//Q7.1
 function App() {
   return (<div>
-    <Cards />
+    <Increment />
   </div>
   );
 }
+
 
 
 export default App;
