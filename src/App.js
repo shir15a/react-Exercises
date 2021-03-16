@@ -8,9 +8,9 @@
 // import Cards from "./Components/Cards/Cards";
 // import Increment from "./Components/Increment/Increment";
 // import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
-// import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
+import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
 // import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
-import ChangingBox from "./Components/ChangingBox/ChangingBox";
+// import ChangingBox from "./Components/ChangingBox/ChangingBox";
 
 
 
@@ -99,12 +99,12 @@ import ChangingBox from "./Components/ChangingBox/ChangingBox";
 
 
 //Q8.1
-// function App() {
-//   return (<div>
-//     <LifeCycleMethods />
-//   </div>
-//   );
-// }
+function App() {
+  return (<div>
+    <LifeCycleMethods />
+  </div>
+  );
+}
 
 
 //Q8.2
@@ -119,12 +119,12 @@ import ChangingBox from "./Components/ChangingBox/ChangingBox";
 
 
 //8.3
-function App() {
-  return (<div>
-    <ChangingBox/>
-  </div>
-  );
-}
+// function App() {
+//   return (<div>
+//     <ChangingBox/>
+//   </div>
+//   );
+// }
 
 export default App;
 
