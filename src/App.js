@@ -9,7 +9,10 @@
 // import Increment from "./Components/Increment/Increment";
 // import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
 // import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
-import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
+// import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
+import ChangingBox from "./Components/ChangingBox/ChangingBox";
+
+
 
 
 // Q 1
@@ -105,15 +108,23 @@ import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 
 
 //Q8.2
+// function App() {
+//   return (<div>
+//     <BoxAnimation width={200} height={200} color='salmon' />
+//     <BoxAnimation width={300} height={200} color='seagreen' />
+//     <BoxAnimation width={200} height={100} color='skyblue' />
+//   </div>
+//   );
+// }
+
+
+//8.3
 function App() {
   return (<div>
-    <BoxAnimation width={200} height={200} color='salmon' />
-    <BoxAnimation width={300} height={200} color='seagreen' />
-    <BoxAnimation width={200} height={100} color='skyblue' />
+    <ChangingBox/>
   </div>
   );
 }
-
 
 export default App;
 
