@@ -1,0 +1,29 @@
+.in {
+    animation: fadeIn 1000ms;
+}
+
+.out {
+    animation: fadeOut 1000ms;
+}
+
+@keyframes fadeIn {
+    0% {
+        margin-left: -200px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        margin-left: 0px;
+        
+    }
+    100% {
+        opacity: 0;
+        margin-left: 200px;
+    }
+}
+

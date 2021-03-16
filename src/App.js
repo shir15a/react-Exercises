@@ -8,7 +8,8 @@
 // import Cards from "./Components/Cards/Cards";
 // import Increment from "./Components/Increment/Increment";
 // import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
-import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
+// import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
+import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 
 
 // Q 1
@@ -95,12 +96,24 @@ import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
 
 
 //Q8.1
+// function App() {
+//   return (<div>
+//     <LifeCycleMethods />
+//   </div>
+//   );
+// }
+
+
+//Q8.2
 function App() {
   return (<div>
-    <LifeCycleMethods />
+    <BoxAnimation width={200} height={200} color='salmon' />
+    <BoxAnimation width={300} height={200} color='seagreen' />
+    <BoxAnimation width={200} height={100} color='skyblue' />
   </div>
   );
 }
+
 
 export default App;
 

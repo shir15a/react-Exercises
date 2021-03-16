@@ -13,7 +13,7 @@ class LifeCycleMethods extends react.Component {
     }
 
     componentDidUpdate() {
-        document.querySelector("#attribute").innerHTML= `The updated favorite color is ${this.state.color}`;
+        document.querySelector("#attribute").innerHTML = `The updated favorite color is ${this.state.color}`;
     }
 
     render() {
