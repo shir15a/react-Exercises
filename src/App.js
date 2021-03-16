@@ -7,8 +7,8 @@
 // import Buttons from "./Components/Buttons/Buttons";
 // import Cards from "./Components/Cards/Cards";
 // import Increment from "./Components/Increment/Increment";
-import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
-
+// import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
+import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
 
 
 // Q 1
@@ -86,13 +86,21 @@ import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
 
 
 //Q7.2
+// function App() {
+//   return (<div>
+//     <HideAndSeek />
+//   </div>
+//   );
+// }
+
+
+//Q8.1
 function App() {
   return (<div>
-    <HideAndSeek />
+    <LifeCycleMethods />
   </div>
   );
 }
-
 
 export default App;
 
