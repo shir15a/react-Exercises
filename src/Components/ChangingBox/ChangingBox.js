@@ -1,10 +1,10 @@
 import React from 'react';
 
-const colors = ['#6c5ce7', '#fd79a8', '#d63031', '#ffeaa7', '#55efc4']
+const colors = ['#fd79a8', '#6c5ce7', '#d63031', '#ffeaa7', '#55efc4']
 
 
 class ChangingBox extends React.Component {
-    state = { color : 0, shape : '' };
+    state = { color: 0, shape: '' };
 
     componentDidMount() {
         setInterval(() => {
@@ -29,7 +29,7 @@ class ChangingBox extends React.Component {
                     backgroundColor: colors[this.state.color],
                     height: '100px',
                     width: '100px',
-                    borderRadius : this.state.shape
+                    borderRadius: this.state.shape
                 }}>
 
             </div>
