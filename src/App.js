@@ -10,8 +10,8 @@
 // import HideAndSeek from "./Components/HideAndSeek/HideAndSeek";
 // import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
 // import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
-import ChangingBox from "./Components/ChangingBox/ChangingBox";
-
+// import ChangingBox from "./Components/ChangingBox/ChangingBox";
+import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
 
 
 
@@ -71,7 +71,6 @@ import ChangingBox from "./Components/ChangingBox/ChangingBox";
 //   );
 // }
 
-
 //Q4.2
 // function App() {
 //   return (<div>
@@ -88,7 +87,6 @@ import ChangingBox from "./Components/ChangingBox/ChangingBox";
 //   );
 // }
 
-
 //Q7.2
 // function App() {
 //   return (<div>
@@ -97,7 +95,6 @@ import ChangingBox from "./Components/ChangingBox/ChangingBox";
 //   );
 // }
 
-
 //Q8.1
 // function App() {
 //   return (<div>
@@ -105,7 +102,6 @@ import ChangingBox from "./Components/ChangingBox/ChangingBox";
 //   </div>
 //   );
 // }
-
 
 //Q8.2
 // function App() {
@@ -117,11 +113,18 @@ import ChangingBox from "./Components/ChangingBox/ChangingBox";
 //   );
 // }
 
-
 //8.3
+// function App() {
+//   return (<div>
+//     <ChangingBox/>
+//   </div>
+//   );
+// }
+
+//11.1
 function App() {
   return (<div>
-    <ChangingBox/>
+    <ChildApp/>
   </div>
   );
 }
