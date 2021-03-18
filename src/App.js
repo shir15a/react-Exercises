@@ -11,7 +11,7 @@
 // import LifeCycleMethods from "./Components/LifeCycleMethods/LifeCycleMethods";
 // import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 // import ChangingBox from "./Components/ChangingBox/ChangingBox";
-import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
+// import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
 
 
 
@@ -114,20 +114,21 @@ import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
 // }
 
 //8.3
+function App() {
+  return (<div>
+    <ChangingBox/>
+  </div>
+  );
+}
+
+//11.1
 // function App() {
 //   return (<div>
-//     <ChangingBox/>
+//     <ChildApp/>
 //   </div>
 //   );
 // }
 
-//11.1
-function App() {
-  return (<div>
-    <ChildApp/>
-  </div>
-  );
-}
 
 export default App;
 
