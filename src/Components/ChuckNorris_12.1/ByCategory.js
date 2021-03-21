@@ -11,7 +11,7 @@ export default class ByCategory extends Component {
         const resposne = await axios.get(`https://api.chucknorris.io/jokes/random?category=${category}`)
         this.setState({ joke: resposne.data.value })
     }
-    
+
     componentDidMount = async () => {
         const response = await axios.get('https://api.chucknorris.io/jokes/categories');
         this.setState({ categories: response.data })
@@ -22,9 +22,7 @@ export default class ByCategory extends Component {
         return (
             <div>
                 <select name="categories" onChange={this.getJoke} >
-                    {this.state.categories.map(value => {
-                        return <option value={value}>{value}</option>
-                    })}
+                    {this.state.categories.map(value => <option value={value}>{value}</option>)}
                 </select>
                 <p>{this.state.joke}</p>
             </div>
