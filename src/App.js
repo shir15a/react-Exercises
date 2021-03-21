@@ -12,7 +12,7 @@
 // import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 // import ChangingBox from "./Components/ChangingBox/ChangingBox";
 // import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
-
+import ChuckNorris from "./Components/ChuckNorris_12.1/ChuckNorris"
 
 
 // Q 1
@@ -114,12 +114,12 @@
 // }
 
 //8.3
-function App() {
-  return (<div>
-    <ChangingBox/>
-  </div>
-  );
-}
+// function App() {
+//   return (<div>
+//     <ChangingBox/>
+//   </div>
+//   );
+// }
 
 //11.1
 // function App() {
@@ -128,6 +128,14 @@ function App() {
 //   </div>
 //   );
 // }
+
+//12.1
+function App() {
+  return (<div>
+    <ChuckNorris/>
+  </div>
+  );
+}
 
 
 export default App;
