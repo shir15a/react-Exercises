@@ -12,7 +12,7 @@
 // import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 // import ChangingBox from "./Components/ChangingBox/ChangingBox";
 // import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
-// import ChuckNorris from "./Components/ChuckNorris_12.1/ChuckNorris"
+import ChuckNorris from "./Components/ChuckNorris_12.1/ChuckNorris"
 import ByCategory from "./Components/ChuckNorris_12.1/ByCategory"
 
 
@@ -141,6 +141,7 @@ import ByCategory from "./Components/ChuckNorris_12.1/ByCategory"
 // 12.1.2
 function App() {
   return (<div>
+    <ChuckNorris/>
     <ByCategory/>
   </div>
   );
