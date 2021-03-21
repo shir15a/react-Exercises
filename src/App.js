@@ -12,8 +12,10 @@
 // import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 // import ChangingBox from "./Components/ChangingBox/ChangingBox";
 // import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
-import ChuckNorris from "./Components/ChuckNorris_12.1/ChuckNorris"
-import ByCategory from "./Components/ChuckNorris_12.1/ByCategory"
+// import ChuckNorris from "./Components/ChuckNorris_12.1/ChuckNorris";
+// import ByCategory from "./Components/ChuckNorris_12.1/ByCategory";
+// import DataMassaging from "./Components/DataMassaging_13.1/DataMassaging";
+import Avatars from "./Components/Avatars/Avatars";
 
 
 // Q 1
@@ -139,13 +141,30 @@ import ByCategory from "./Components/ChuckNorris_12.1/ByCategory"
 // }
 
 // 12.1.2
+// function App() {
+//   return (<div>
+//     <ChuckNorris/>
+//     <ByCategory/>
+//   </div>
+//   );
+// }
+
+//13.1
+// function App() {
+//   return (<div>
+//     <DataMassaging/>
+//   </div>
+//   );
+// }
+
 function App() {
   return (<div>
-    <ChuckNorris/>
-    <ByCategory/>
+    <Avatars/>
   </div>
   );
 }
+
+
 
 export default App;
 
