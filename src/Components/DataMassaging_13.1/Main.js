@@ -5,10 +5,10 @@ import Card from './Card'
 
 export default class DataMassaging extends Component {
     // state = {data: data}
-    state = {data}
+    state = { data }
 
     names = () => {
-        console.log(this.state.data.map(person=> person.name));
+        console.log(this.state.data.map(person => person.name));
         return this.state.data.map(person => person.name)
     }
 
@@ -21,14 +21,19 @@ export default class DataMassaging extends Component {
     render() {
         return (
             <div>
+                <h3 style={{ textAlign: 'center' }}>Names from the object</h3>
+
                 {this.names().map(name => {
                     return <Name name={name} key={name} />
                 })}
+
+                <h3 style={{ textAlign: 'center' }}>Born before 1990</h3>
+
                 {this.bornBefore1990().map(person => {
-                    return <Card person={person} key={person.name}/>
+                    return <Card person={person} key={person.name} />
                 })}
             </div>
-            
+
         )
     }
 }

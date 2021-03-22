@@ -14,8 +14,11 @@
 // import ChildApp from "./Components/ChildToFather_11.1/ChildApp";
 // import ChuckNorris from "./Components/ChuckNorris_12.1/ChuckNorris";
 // import ByCategory from "./Components/ChuckNorris_12.1/ByCategory";
-// import DataMassaging from "./Components/DataMassaging_13.1/DataMassaging";
-import Avatars from "./Components/Avatars/Avatars";
+// import DataMassaging from "./Components/DataMassaging_13.1/Main";
+// import Avatars from "./Components/Avatars/Avatars";
+import Focus from "./Components/Focus14.1/Focus";
+
+
 
 
 // Q 1
@@ -157,9 +160,19 @@ import Avatars from "./Components/Avatars/Avatars";
 //   );
 // }
 
+
+//13.2
+// function App() {
+//   return (<div>
+//     <Avatars/>
+//   </div>
+//   );
+// }
+
+//14.1
 function App() {
   return (<div>
-    <Avatars/>
+    <Focus/>
   </div>
   );
 }

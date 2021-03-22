@@ -12,6 +12,7 @@ export default class Avatars extends Component {
 
     async componentDidMount() {
         const response = await axios.get('https://randomuser.me/api/?results=10');
+        console.log(response);
         this.setState({
             users: response.data.results.map(user => {
                 return ({
@@ -23,6 +24,7 @@ export default class Avatars extends Component {
     }
 
     onInputChange(e) {
+        console.log(e.target.value);
         this.setState({ search: e.target.value })
     }
 
