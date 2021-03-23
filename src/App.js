@@ -17,8 +17,8 @@
 // import DataMassaging from "./Components/DataMassaging_13.1/Main";
 // import Avatars from "./Components/Avatars/Avatars";
 // import Focus from "./Components/Focus14.1/Focus";
-
-import Copy from "./Components/Copy_14.2/Copy";
+// import Copy from "./Components/Copy_14.2/Copy";
+import Main from "./Components/Products_16.1/Main";
 
 
 
@@ -179,9 +179,18 @@ import Copy from "./Components/Copy_14.2/Copy";
 // }
 
 //14.2
+// function App() {
+//   return (<div>
+//     <Copy/>
+//   </div>
+//   );
+// }
+
+
+//16.1
 function App() {
   return (<div>
-    <Copy/>
+    <Main/>
   </div>
   );
 }

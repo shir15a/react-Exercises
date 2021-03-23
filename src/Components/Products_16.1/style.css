@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(173, 179, 182);
+    color: seashell;
+    list-style: none;
+}
+
+.nav-m{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+li{
+    color: navy;
+    text-decoration: none;
+}
