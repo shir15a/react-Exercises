@@ -13,7 +13,7 @@ export default class Copy extends Component {
         return (
             <div style={{ display: 'flex', flexDirection: 'column', width: '200px' }}>
                 <textarea className="textarea" name="textarea" rows="4" cols="50" ref={this.myInput}></textarea>
-                <button onClick={this.copy}>copy</button>
+                <button onClick={this.copy}>copy!</button>
             </div>
         )
     }
