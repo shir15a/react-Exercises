@@ -16,8 +16,9 @@
 // import ByCategory from "./Components/ChuckNorris_12.1/ByCategory";
 // import DataMassaging from "./Components/DataMassaging_13.1/Main";
 // import Avatars from "./Components/Avatars/Avatars";
-import Focus from "./Components/Focus14.1/Focus";
+// import Focus from "./Components/Focus14.1/Focus";
 
+import Copy from "./Components/Copy_14.2/Copy";
 
 
 
@@ -170,9 +171,17 @@ import Focus from "./Components/Focus14.1/Focus";
 // }
 
 //14.1
+// function App() {
+//   return (<div>
+//     <Focus/>
+//   </div>
+//   );
+// }
+
+//14.2
 function App() {
   return (<div>
-    <Focus/>
+    <Copy/>
   </div>
   );
 }
