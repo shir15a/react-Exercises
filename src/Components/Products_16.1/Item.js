@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-import Products from './Products';
 import data from './Store';
 
 export default class Item extends Component {
     render() {
         const product = data[this.props.match.params.id - 1]
+        console.log("product line 10", this.props.match);
         return (
             <div>
                 <div className="product">
