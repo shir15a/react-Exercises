@@ -9,14 +9,11 @@ export default class Item extends Component {
         const product = data[this.props.match.params.id - 1]
         return (
             <div>
-                <Products />
                 <div className="product">
                     <h1>{product.title}</h1>
                     <h3>price: {product.price}</h3>
                     <img src={product.imageUrl} />
-                    <Link
-                        to="/products"
-                    >
+                    <Link to="/products">
                         <button>Back</button>
                     </Link>
                 </div>
