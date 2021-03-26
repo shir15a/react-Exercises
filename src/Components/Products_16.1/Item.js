@@ -9,7 +9,7 @@ export default class Item extends Component {
         console.log("product line 10", this.props.match);
         return (
             <div>
-                <div className="product">
+                <div className="product" >
                     <h1>{product.title}</h1>
                     <h3>price: {product.price}</h3>
                     <img src={product.imageUrl} />
