@@ -12,7 +12,7 @@ export default class DataMassaging extends Component {
         return this.state.data.map(person => person.name)
     }
 
-    // "1-1-1995" => ['1','1','1995']
+    // "1-1-1995" =>    ['1','1','1995']
     bornBefore1990 = () => {
         console.log((this.state.data.filter(person => (parseInt(person.birthday.split('-')[2]) < 1990))));
         return (this.state.data.filter(person => (parseInt(person.birthday.split('-')[2]) < 1990)));
