@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-function Example({ string, maxLength }) {
+function Text({ string, maxLength }) {
     const [hidden, setHidden] = useState(true);
 
     if (string.length <= maxLength) {
@@ -17,4 +17,4 @@ function Example({ string, maxLength }) {
     );
 }
 
-export default Example
+export default Text
