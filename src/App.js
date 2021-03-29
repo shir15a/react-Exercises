@@ -20,8 +20,9 @@
 // import Copy from "./Components/Copy_14.2/Copy";
 // import Main from "./Components/Products_16.1/Main";
 // import Text from "./Components/Text_18.1/Text";
-import Todo from "./Components/Todo_18.2/Todo";
-
+// import Todo from "./Components/Todo_18.2/Todo";
+// import WhatsTheTime from "./Components/WhatsTheTime_18.3/WhatsTheTime";
+import MarkingDeleting from "./Components/MarkingDeleting_18.4/MarkingDeleting";
 
 
 
@@ -213,23 +214,36 @@ import Todo from "./Components/Todo_18.2/Todo";
 // }
 
 //18.2
+// function App() {
+//   const programmingLanguages = [
+//     { name: "CSS", completed: true },
+//     { name: "JavaScript", completed: true },
+//     { name: "Learn React", completed: false },
+//     { name: "Learn mongoDB", completed: false },
+//     { name: "Learn Node JS", completed: false },
+//   ];
 
+//   return (<div>
+//     <Todo programmingLanguages={programmingLanguages} />
+//   </div>
+//   );
+// }
+
+//18.3
+// function App() {
+//   return (<div>
+//     <WhatsTheTime />
+//   </div>
+//   );
+// }
+
+//18.4
 function App() {
-  const programmingLanguages = [
-    { name: "CSS", completed: true },
-    { name: "JavaScript", completed: true },
-    { name: "Learn React", completed: false },
-    { name: "Learn mongoDB", completed: false },
-    { name: "Learn Node JS", completed: false },
-  ];
-
   return (<div>
-    <Todo programmingLanguages={programmingLanguages} />
+    <MarkingDeleting />
   </div>
   );
 }
-
-
 
 export default App;
 
