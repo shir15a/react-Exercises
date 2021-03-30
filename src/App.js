@@ -23,7 +23,9 @@
 // import Todo from "./Components/Todo_18.2/Todo";
 // import WhatsTheTime from "./Components/WhatsTheTime_18.3/WhatsTheTime";
 // import MarkingDeleting from "./Components/MarkingDeleting_18.4/MarkingDeleting";
-import SimpleFetch from "./Components/SimpleFetch_19.1/SimpleFetch";
+// import SimpleFetch from "./Components/SimpleFetch_19.1/SimpleFetch";
+import CountriesOfTheWorld from "./Components/CountriesOfTheWorld_19.2/CountriesOfTheWorld";
+
 
 
 
@@ -248,9 +250,17 @@ import SimpleFetch from "./Components/SimpleFetch_19.1/SimpleFetch";
 
 
 //19.1
+// function App() {
+//   return (<div>
+//     <SimpleFetch />
+//   </div>
+//   );
+// }
+
+//19.2
 function App() {
   return (<div>
-    <SimpleFetch />
+    <CountriesOfTheWorld />
   </div>
   );
 }
