@@ -22,7 +22,8 @@
 // import Text from "./Components/Text_18.1/Text";
 // import Todo from "./Components/Todo_18.2/Todo";
 // import WhatsTheTime from "./Components/WhatsTheTime_18.3/WhatsTheTime";
-import MarkingDeleting from "./Components/MarkingDeleting_18.4/MarkingDeleting";
+// import MarkingDeleting from "./Components/MarkingDeleting_18.4/MarkingDeleting";
+import SimpleFetch from "./Components/SimpleFetch_19.1/SimpleFetch";
 
 
 
@@ -238,12 +239,23 @@ import MarkingDeleting from "./Components/MarkingDeleting_18.4/MarkingDeleting";
 // }
 
 //18.4
+// function App() {
+//   return (<div>
+//     <MarkingDeleting />
+//   </div>
+//   );
+// }
+
+
+//19.1
 function App() {
   return (<div>
-    <MarkingDeleting />
+    <SimpleFetch />
   </div>
   );
 }
+
+
 
 export default App;
 
