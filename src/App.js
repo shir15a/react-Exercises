@@ -25,8 +25,8 @@
 // import MarkingDeleting from "./Components/MarkingDeleting_18.4/MarkingDeleting";
 // import SimpleFetch from "./Components/SimpleFetch_19.1/SimpleFetch";
 // import CountriesOfTheWorld from "./Components/CountriesOfTheWorld_19.2/CountriesOfTheWorld";
-import AlogoliaAPI from "./Components/AlogoliaAPI_19.3/AlogoliaAPI";
-
+// import AlogoliaAPI from "./Components/AlogoliaAPI_19.3/AlogoliaAPI";
+import ChuckNorrisHooks from "./Components/ChuckNorrisHooks_19.4/ChuckNorrisHooks";
 
 
 // Q 1
@@ -266,13 +266,20 @@ import AlogoliaAPI from "./Components/AlogoliaAPI_19.3/AlogoliaAPI";
 // }
 
 // 19.3
+// function App() {
+//   return (<div>
+//     <AlogoliaAPI />
+//   </div>
+//   );
+// }
+
+//19.4
 function App() {
   return (<div>
-    <AlogoliaAPI />
+    <ChuckNorrisHooks />
   </div>
   );
 }
-
 
 
 export default App;
