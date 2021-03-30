@@ -24,8 +24,8 @@
 // import WhatsTheTime from "./Components/WhatsTheTime_18.3/WhatsTheTime";
 // import MarkingDeleting from "./Components/MarkingDeleting_18.4/MarkingDeleting";
 // import SimpleFetch from "./Components/SimpleFetch_19.1/SimpleFetch";
-import CountriesOfTheWorld from "./Components/CountriesOfTheWorld_19.2/CountriesOfTheWorld";
-
+// import CountriesOfTheWorld from "./Components/CountriesOfTheWorld_19.2/CountriesOfTheWorld";
+import AlogoliaAPI from "./Components/AlogoliaAPI_19.3/AlogoliaAPI";
 
 
 
@@ -258,9 +258,17 @@ import CountriesOfTheWorld from "./Components/CountriesOfTheWorld_19.2/Countries
 // }
 
 //19.2
+// function App() {
+//   return (<div>
+//     <CountriesOfTheWorld />
+//   </div>
+//   );
+// }
+
+// 19.3
 function App() {
   return (<div>
-    <CountriesOfTheWorld />
+    <AlogoliaAPI />
   </div>
   );
 }
