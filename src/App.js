@@ -27,9 +27,9 @@
 // import CountriesOfTheWorld from "./Components/CountriesOfTheWorld_19.2/CountriesOfTheWorld";
 // import AlogoliaAPI from "./Components/AlogoliaAPI_19.3/AlogoliaAPI";
 // import ChuckNorrisHooks from "./Components/ChuckNorrisHooks_19.4/ChuckNorrisHooks";
-import CancelRequest from "./Components/CancelRequest_20.1/CancelRequest";
-
-
+// import CancelRequest from "./Components/CancelRequest_20.1/CancelRequest";
+// import Editing from "./Components/Editing_21.1/Editing";
+import PlayAndPauseVideo from "./Components/PlayAndPauseVideo_21.2/PlayAndPauseVideo";
 
 
 
@@ -288,14 +288,30 @@ import CancelRequest from "./Components/CancelRequest_20.1/CancelRequest";
 
 
 //20.1
+// function App() {
+//   return (<div>
+//     <CancelRequest />
+//   </div>
+//   );
+// }
+
+
+//21.1
+// function App() {
+//   return (<div>
+//     <Editing />
+//   </div>
+//   );
+// }
+
+
+//21.2
 function App() {
-  const string = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
   return (<div>
-    <CancelRequest string={string} maxLength={10} />
+    <PlayAndPauseVideo />
   </div>
   );
 }
-
 
 
 export default App;
