@@ -26,7 +26,12 @@
 // import SimpleFetch from "./Components/SimpleFetch_19.1/SimpleFetch";
 // import CountriesOfTheWorld from "./Components/CountriesOfTheWorld_19.2/CountriesOfTheWorld";
 // import AlogoliaAPI from "./Components/AlogoliaAPI_19.3/AlogoliaAPI";
-import ChuckNorrisHooks from "./Components/ChuckNorrisHooks_19.4/ChuckNorrisHooks";
+// import ChuckNorrisHooks from "./Components/ChuckNorrisHooks_19.4/ChuckNorrisHooks";
+import CancelRequest from "./Components/CancelRequest_20.1/CancelRequest";
+
+
+
+
 
 
 // Q 1
@@ -274,12 +279,23 @@ import ChuckNorrisHooks from "./Components/ChuckNorrisHooks_19.4/ChuckNorrisHook
 // }
 
 //19.4
+// function App() {
+//   return (<div>
+//     <ChuckNorrisHooks />
+//   </div>
+//   );
+// }
+
+
+//20.1
 function App() {
+  const string = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
   return (<div>
-    <ChuckNorrisHooks />
+    <CancelRequest string={string} maxLength={10} />
   </div>
   );
 }
+
 
 
 export default App;
