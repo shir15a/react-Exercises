@@ -29,7 +29,8 @@
 // import ChuckNorrisHooks from "./Components/ChuckNorrisHooks_19.4/ChuckNorrisHooks";
 // import CancelRequest from "./Components/CancelRequest_20.1/CancelRequest";
 // import Editing from "./Components/Editing_21.1/Editing";
-import PlayAndPauseVideo from "./Components/PlayAndPauseVideo_21.2/PlayAndPauseVideo";
+// import PlayAndPauseVideo from "./Components/PlayAndPauseVideo_21.2/PlayAndPauseVideo";
+import ImageToggle from "./Components/ImageToggle_21.3/ImageToggle";
 
 
 
@@ -306,12 +307,24 @@ import PlayAndPauseVideo from "./Components/PlayAndPauseVideo_21.2/PlayAndPauseV
 
 
 //21.2
+// function App() {
+//   return (<div>
+//     <PlayAndPauseVideo />
+//   </div>
+//   );
+// }
+
+//21.3
 function App() {
   return (<div>
-    <PlayAndPauseVideo />
+    <ImageToggle />
   </div>
   );
 }
+
+
+
+
 
 
 export default App;
